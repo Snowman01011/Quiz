@@ -10,7 +10,7 @@
     "answer": "Mars"
   },
   {
-    "question": "Who is the present Hpome Minister of Nepal?",
+    "question": "Who is the present Home Minister of Nepal?",
     "options": ["Ramesh Lekhakh", "Rabi Lamichhane", "CK Raut", "Ram Baran Yadav"],
     "answer": "Ramesh Lekhakh"
   },
@@ -25,9 +25,9 @@
     "answer": "Dr. Ram Baran Yadav"
   },
   {
-    "question": "Which planet is known as the?",
-    "options": ["Earth", "Mars", "Jupiter", "Venus"],
-    "answer": "Mars"
+    "question": "Which of the following is not an operating system?",
+    "options": ["Linux", "Windows", "Microsoft Office", "macOS"],
+    "answer": "Microsoft Office"
   },
   {
     "question": "What is the national colour of Nepal?",
