@@ -56,7 +56,8 @@ function showQuestion() {
   optionButtons.forEach((btn, index) => {
         btn.textContent = q.options[index];
         btn.disabled = false;
-        btn.style.backgroundColor = ''; // reset colors
+        btn.style.backgroundColor = '';
+        quesText.style.backgroundColor = ''; // reset colors
 
     btn.onclick = () => {
       // Disable all options after selection
