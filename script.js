@@ -18,7 +18,6 @@ const pauseBtn = document.getElementById('pauseBtn');
 //sounds
 const correctSound = new Audio('/sounds/correct.mp3');
 const wrongSound = new Audio('/sounds/wrong.mp3');
-const timeupSound = new Audio('/sounds/timer.mp3');
 
 // Disable next button initially
 nextBtn.disabled = true;
@@ -109,10 +108,8 @@ function startTimer() {
         if (!timerPaused) {
         timeLeft--;
         timerDisplay.textContent = formatTime(timeLeft);
-
             if (timeLeft <= 0) {
                 clearInterval(timerInterval);
-
                 const correctAnswer = questions[currentIndex].answer;
 
                 optionButtons.forEach(btn => {
@@ -153,6 +150,7 @@ function nextQuestion() {
 pauseBtn.onclick = () => {
   timerPaused = !timerPaused;
   pauseBtn.textContent = timerPaused ? 'Resume Time' : 'Pause Time';
+  timeupSound.pause();
 };
 
 // Show final results
