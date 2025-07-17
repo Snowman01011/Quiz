@@ -1,12 +1,62 @@
 [
   {
-    "question": "What is the capital of France?",
-    "options": ["London", "Berlin", "Paris", "Madrid"],
-    "answer": "Paris"
+    "question": "What is the Total area of Nepal According to New political Map realesed in 2020 AD?",
+    "options": ["148,519 Km", "147,518", "147234Km", "147516Km"],
+    "answer": "147516Km"
   },
   {
     "question": "Which planet is known as the Red Planet?",
     "options": ["Earth", "Mars", "Jupiter", "Venus"],
     "answer": "Mars"
+  },
+  {
+    "question": "Who is the present Hpome Minister of Nepal?",
+    "options": ["Ramesh Lekhakh", "Rabi Lamichhane", "CK Raut", "Ram Baran Yadav"],
+    "answer": "Ramesh Lekhakh"
+  },
+  {
+    "question": "Which planet is known as the smallest planet in solar system?",
+    "options": ["Earth", "Mars", "Mercury", "Venus"],
+    "answer": "Mercury"
+  },
+  {
+    "question": "Who is the first president of Nepal?",
+    "options": ["Bidya Devi Bhandari", "Dr. Ram Baran Yadav", "B.P koirala", "Bhimsen Thapa"],
+    "answer": "Dr. Ram Baran Yadav"
+  },
+  {
+    "question": "Which planet is known as the?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What is the national colour of Nepal?",
+    "options": ["Crimson Pink", "Crimson Red", "Crimson Blue", "Crimson Green"],
+    "answer": "Crimson Red"
+  },
+  {
+    "question": "What is the capital city of Australia?",
+    "options": ["Sydney", "Canberra", "Perth", "Melbourne"],
+    "answer": "Canberra"
+  },
+  {
+    "question": "Which planet is known as the Biggest planet in solar system?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "What is the total area of Nepal according to new political map released in 2020 AD?",
+    "options": ["14148Km", "147518Km", "147518Km", "14516Km"],
+    "answer": "147516Km"
+  },
+  {
+    "question": "How many district are there in koshi province?",
+    "options": ["14", "12", "10", "11"],
+    "answer": "14"
+  },
+  {
+    "question": "How many district are there in Nepal?",
+    "options": ["6", "74", "75", "77"],
+    "answer": "77"
   }
 ]

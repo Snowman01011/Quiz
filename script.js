@@ -163,7 +163,9 @@ function showResults() {
     nextBtn.style.display = 'none';
     timerDisplay.style.display = 'none';
     pauseBtn.style.display = 'none';
-    goToProfilePage();
+    setTimeout(()=>{
+         goToProfilePage();
+    }, 4000)
 }
 
 function goToProfilePage() {
