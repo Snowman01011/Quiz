@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGC | Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/icon/susma.png" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <div class="quiz-header">
+            <h1>Susma Godawari Quiz</h1>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <span class="question-info" id="questionInfo"></span>
+            </div>
+        </div>
+
+        <div class="ques" id="quesText">
+            
+        </div>
+
+        <div class="optns">
+            <button class="opt"></button>
+            <button class="opt"></button>
+            <button class="opt"></button>
+            <button class="opt"></button>
+        </div>
+
+        <div class="feat">
+            <button class="control-btn" id="nextBtn" onclick="nextQuestion()">Next Question</button>
+            <div class="timer" id="timer">00</div>
+            <button class="control-btn" id="pauseBtn">Pause Time</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
