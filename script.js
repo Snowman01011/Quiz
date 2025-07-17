@@ -165,7 +165,7 @@ function showResults() {
     pauseBtn.style.display = 'none';
     setTimeout(()=>{
          goToProfilePage();
-    }, 4000)
+    }, 3000)
 }
 
 function goToProfilePage() {
